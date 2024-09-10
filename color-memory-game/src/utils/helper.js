@@ -46,3 +46,11 @@ export function assignColorsToBox(colors, boxArray) {
 	});
 	return newBoxArray;
 }
+
+export function isEmptyObject(object = {}) {
+	if (!object) return true;
+	for (const _ in object) {
+		return false;
+	}
+	return true;
+}
