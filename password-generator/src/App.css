@@ -1,0 +1,81 @@
+#root {
+	max-width: 1280px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.container {
+	display: flex;
+	flex-flow: column;
+	justify-content: start;
+	align-items: center;
+	gap: 1rem;
+	/* height: 100vh; */
+}
+
+.heading {
+	font-size: 1.5rem;
+	font-weight: 600;
+	margin: 0;
+	padding: 0;
+}
+.password-container {
+	display: flex;
+	flex-flow: column;
+	justify-content: start;
+	align-items: start;
+	background-color: #22324b;
+	padding: 1rem;
+	min-width: 350px;
+	gap: 10px;
+	max-width: 650px;
+}
+
+.btn {
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	background-color: #2a8b8b;
+	color: white !important;
+	cursor: pointer;
+}
+.copy-btn {
+	width: auto;
+	height: 36px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.generate-btn {
+	width: 100%;
+}
+.x-flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.input-slider {
+	width: 100%;
+	cursor: pointer;
+}
+.checkbox-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 10px;
+}
+
+.checkbox {
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	justify-content: start;
+	gap: 5px;
+}
+.checkbox label {
+	color: white;
+}
