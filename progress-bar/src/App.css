@@ -33,6 +33,13 @@ h6 {
 	align-items: center;
 	/* justify-content: center; */
 }
+
+.progress > div:first-child {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	z-index: 999;
+}
 .progress span {
 	color: black;
 }

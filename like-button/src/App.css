@@ -1,0 +1,60 @@
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+}
+.btn {
+	padding: 10px;
+	border-radius: 15px;
+	border-width: 2px;
+	border-style: solid;
+	display: flex;
+	gap: 8px;
+	justify-content: center;
+	align-items: center;
+	outline: none;
+}
+.btn:focus {
+	border: none;
+	/* outline: 1px; */
+}
+.like-button {
+	background-color: white;
+	border-color: #808080;
+	color: gray;
+
+	.heart {
+		fill: gray;
+	}
+}
+
+.unlike-btn {
+	background-color: red;
+	border: none;
+	color: white;
+
+	.heart {
+		fill: white;
+	}
+}
+/*
+.btn-text {
+	font-size: 1.2em;
+	transition: color 0.3s ease;
+	color: gray;
+}*/
+
+.like-button:hover {
+	border-color: red;
+	color: red;
+	.heart {
+		fill: red;
+	}
+}
+
+.error {
+	color: black;
+	text-align: center;
+	font-size: 1.2em;
+}
