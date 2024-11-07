@@ -1,0 +1,78 @@
+html {
+	height: 100vh;
+	width: 100vw;
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	width: 100%;
+	margin: auto;
+	padding-top: 2rem;
+}
+.flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.col {
+	flex-flow: column;
+}
+.row {
+	flex-direction: row;
+}
+
+.circle {
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	color: black;
+	background-color: lightgray;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.bar {
+	height: 5px;
+	width: 120px;
+	background-color: lightgray;
+}
+
+.active {
+	background-color: blue;
+	color: white;
+}
+
+.completed {
+	background-color: green;
+	color: white;
+}
+
+button {
+	margin-top: 1rem;
+	padding: 5px 12px;
+	border: none;
+	background-color: rgb(116, 116, 120);
+	color: white;
+	cursor: pointer;
+	border-radius: 5px;
+	font-weight: 600;
+}
+
+.progress {
+	width: 0px;
+	height: 100%;
+	background-color: green;
+	transition: width 0.5s ease-in-out;
+}
