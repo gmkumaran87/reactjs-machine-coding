@@ -7,14 +7,14 @@ const Stepper = ({ configSteps }) => {
 	return (
 		<div className='flex  col'>
 			<h1>Checkout</h1>
-			<div className='flex row container'>
+			<ol className='flex row container'>
 				{configSteps?.map((step, index) => (
-					<div key={step.id} className='flex row'>
-						<StepCircle status={step?.status} id={step?.id} />
+					<li key={step.id} className='flex row list'>
 						{index + 1 === configSteps?.length ? <></> : <ProgressBar status={step?.status} />}
-					</div>
+						<StepCircle status={step?.status} id={step?.id} />
+					</li>
 				))}
-			</div>
+			</ol>
 		</div>
 	);
 };

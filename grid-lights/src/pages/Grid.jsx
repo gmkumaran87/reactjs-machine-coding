@@ -48,7 +48,7 @@ const Grid = ({ config }) => {
 		}, 500);
 	}
 
-	// console.log('Boxes', { clickedBoxes });
+	console.log('Boxes', { gridButtons, clickedBoxes });
 	return (
 		<div
 			className='grid-container'

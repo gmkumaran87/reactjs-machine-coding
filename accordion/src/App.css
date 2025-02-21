@@ -1,0 +1,50 @@
+* {
+	box-sizing: border-box;
+}
+
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	margin: 0;
+}
+
+.wrapper {
+	display: flex;
+	flex-flow: column;
+	/* align-items: center; */
+	justify-content: center;
+	gap: 1rem;
+	width: 90%;
+}
+.accordion-wrapper {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	width: 95%;
+}
+.row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 0.31rem;
+}
+
+.accord-wrap {
+	padding: 10px;
+	border: 1px solid #ccc;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.accord-wrap > p {
+	text-align: left;
+}

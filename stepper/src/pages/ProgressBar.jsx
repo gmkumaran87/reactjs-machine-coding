@@ -3,7 +3,9 @@
 const ProgressBar = ({ status }) => {
 	return (
 		<div className='bar'>
-			<div className={`progress`} style={{ width: status === 'completed' ? '100%' : '0px' }} />
+			<div className={`progress`}>
+				<div className='progress-active' style={{ width: status === 'completed' ? '100%' : '0px' }} />
+			</div>
 		</div>
 	);
 };

@@ -59,7 +59,7 @@ const Game = ({ total, colors }) => {
 			}, 400);
 		}
 	};
-
+	console.log('Boxes', { boxes, boxClicked });
 	const resetGame = () => {
 		setBoxClicked({});
 		setBoxes((prev) => [...prev].map((el) => ({ ...el, isShowColor: false })));
